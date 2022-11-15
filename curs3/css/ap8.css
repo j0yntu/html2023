@@ -1,0 +1,13 @@
+#h1 {
+    color: green;
+    background-color: red;
+    font-size: 20px;
+    border-bottom: 10px solid ;
+}
+h1{
+    border: px;
+}
+
+h1 .ph1{
+    font-size: 30px;
+}
