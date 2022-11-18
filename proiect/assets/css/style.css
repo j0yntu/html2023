@@ -1,17 +1,20 @@
+div img{
+    width: 10%;
+}
 nav li{
     width: 6cm;
     height: 1cm;
     display: inline-block;
     border: 2px red solid;
-    background-color: yellow;
-    border-radius: 2px;
+    background-color:  rgb(249, 164, 5);
+    border-radius: 20px;
     padding: 30px;
     font-size: xx-large;
     text-align: center;
     
     
 }
-nav li a:hover{
+#buttons a:hover{
     color: red;
 }
 nav,a{
@@ -21,15 +24,21 @@ nav{
     margin: auto;
     padding: 20px 20px 20px 20px;
     border-radius: 0em;
-    background-color: aqua;
     text-align: right;
+    
 }
 nav ul{
     
-    border-style: ;
+    
     border-radius: 20px solid;
 }
 body{
     margin: 0px;
     padding: 0%;
+}
+header{
+    
+    text-align: left;
+    background-color: aqua;
+    width: auto;
 }

@@ -1,0 +1,31 @@
+table {
+    border: 2px red solid;
+    border-collapse: collapse;
+}
+table tr td, table tr th{
+    border: 1px blue solid;
+    padding: 10px;
+    
+}
+
+table tr:nth-child(2n){
+    color: brown;
+    background-color: burlywood;
+}
+table tr:nth-child(2n+1){
+    background-color: rgb(165, 73, 42);
+    color: #ffff;
+}
+table tr:first-child{
+    background-color: aqua;
+    color: red;
+}
+
+table tr:hover{
+    background-color: blue;
+    color: green;
+}
+table td:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+}
