@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="./css/styles.css" />-->
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for helping us to improve our services</p>
+    <form id="survey-form" method="post" action="">
+        <div class="details">
+            <fieldset>
+                <label id="name-label" for="name">Please Enter Your Name:
+                    <input id="name" type="text" required placeholder="Name" >
+                </label>
+                <label id="email-label" for="email">Please Enter Your Email:
+                    <input id="email" type="email" required placeholder="email address" >
+                </label>
+                <label id="number-label" for="number">Please Enter Your Age (optional):
+                    <input id="number" type="number" name="age" min="13" max="120" placeholder="Age(optional)" >
+                </label>
+            </fieldset>
+        </div>
+        <div class="dropdown">
+            <fieldset>
+                <label for="dropdown">How likely are you to recommend us ?
+                    <select id="dropdown" name="dropdown">
+                        <option value="">(select one)</option>
+
+                        <option value="1">Likely</option>
+                        <option value="2">Not likely</option>
+                    </select>
+                </label>
+            </fieldset>
+        </div>
+        <div class="yesorno">
+            <fieldset>
+                <section>
+                    Would you like to be contacted by us ?
+
+                    <label for="yes">
+                        <input id="yes" type="radio" name="yesorno" class="inline" value="yes" >
+                        YES
+                    </label>
+                    <label for="no">
+                        <input id="no" type="radio" name="yesorno" class="inline" value="no" >
+                        NO
+                    </label>
+                </section>
+            </fieldset>
+        </div>
+        <div class="checkbox">
+            <fieldset>
+                How we did ?
+                <label for="great">
+                    <input id="great" type="checkbox" name="great" value="great" >
+                    Great
+                </label>
+                <label for="couldbebetter">
+                    <input id="couldbebetter" type="checkbox" name="couldbebetter" value="couldbebetter" >
+                    Could be better
+                </label>
+                <label for="bad">
+                    <input id="bad" type="checkbox" name="bad" value="bad" > Bad
+                </label>
+            </fieldset>
+        </div>
+        <div class="comments">
+            <fieldset>
+                <label for="comments">Any sugestions ?
+                    <textarea id="comments" name="comments" rows="4" cols="6" placeholder="Your thoughts..."></textarea>
+                </label>
+            </fieldset>
+        </div>
+
+        <label for="submit">
+            <input id="submit" type="submit" value="Submit" />
+        </label>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+div img {
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+
+}
+@media (max-width: 576px) {
+    /*mobil*/
+    .laptop, .tableta {
+        display: none;
+    }
+    .mobil {
+        background-image: url("../images/mobil.png");
+        background-size: cover;
+    }
+}
+
+@media (min-width: 578px) and (max-width: 768px){
+    .laptop, .mobil{
+        display: none;
+    }
+
+}
+@media (min-width:769px) {
+    .mobil, .tableta{
+        display: none;
+    }
+}
