@@ -1,13 +1,19 @@
 body {
     width: 100%;
+<<<<<<< HEAD
     height: 150vh;
     margin: 0;
+=======
+    height: 100vh;
+    margin: 0 auto;
+>>>>>>> c9244026a81984f554d8c1c71680a3afe0997aac
     background-color: grey ;
     color: white;
     font-family: Tahoma;
     font-size: 16px;
 }
 form {
+<<<<<<< HEAD
     width: 60vw;
     max-width: 500px;
     min-height: 300px;
@@ -25,4 +31,35 @@ h1, p {
     text-align: left;
     vertical-align: middle;
     border-color: aliceblue;
+=======
+    display: block;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+      
+}
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+    
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+.details {
+    display: block ;
+    width: auto;
+    border: none;
+    padding: 0.5px;
+
+>>>>>>> c9244026a81984f554d8c1c71680a3afe0997aac
 }
